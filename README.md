@@ -11,7 +11,7 @@ Creación de Contenedor Docker de Apache con PHP creado desde Dockerfile y conec
 # PASO 3.
 *Ejecutar el contenedor para la Base de Datos.*
 # Base de Datos.
-* docker run -p 3306:3306 --name BaseDatos -v /Proyecto:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123 -d mysql:5
+* docker run -p 3306:3306 --name BaseDatos -v /Proyecto/DataBase:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123 -d mysql:5
 
 # PASO 4.
 Crear una Base de datos
